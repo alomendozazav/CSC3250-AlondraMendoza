@@ -28,7 +28,9 @@ public class GradeCalculator {
     public static void main(String[] args) {
         int[] scores = {85, 90, 72, 96, 88};
 
-
+        if (scores == null || scores.length == 0) {
+            throw new IllegalArgumentException("Scores cannot be empty");
+        }
 
         System.out.println("Average: " + average(scores));
         System.out.println("Highest: " + highest(scores));
