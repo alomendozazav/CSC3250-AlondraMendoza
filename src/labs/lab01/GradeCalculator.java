@@ -25,6 +25,17 @@ public class GradeCalculator {
         return highestScore;
     }
 
+    public static int lowest(int[] scores) {
+        // TODO
+        int lowestScore = scores[0];
+        for(int score : scores) {
+            if (score <= lowestScore){
+                lowestScore = score;
+            }
+        }
+        return lowestScore;
+    }
+
     public static void main(String[] args) {
         int[] scores = {85, 90, 72, 96, 88};
 
@@ -34,5 +45,6 @@ public class GradeCalculator {
 
         System.out.println("Average: " + average(scores));
         System.out.println("Highest: " + highest(scores));
+        System.out.println("Lowest: " + lowest(scores));
     }
 }
