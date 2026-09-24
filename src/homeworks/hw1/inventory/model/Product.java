@@ -1,4 +1,4 @@
 package homeworks.hw1;
 
-public class hw1 {
+public class Product {
 }
