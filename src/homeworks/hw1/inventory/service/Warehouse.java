@@ -142,11 +142,12 @@ public class Warehouse {
         // TODO: loop through inventory and print the required information.
         for (InventoryItem i : inventory){
             i.getProduct();
-            System.out.printf("Product ID: %s", i.getProduct().getProductId());
-            System.out.printf("Product Name: %s", i.getProduct().getName());
-            System.out.printf("Product Quantity: %d", i.getQuantity());
-            System.out.printf("Product Reorder Level: %d", i.getReorderLevel());
-            System.out.printf("Reorder Needed ? : %b", i.needsReorder());
+            System.out.printf("\nProduct ID: %s", i.getProduct().getProductId());
+            System.out.printf("\nProduct Name: %s", i.getProduct().getName());
+            System.out.printf("\nProduct Quantity: %d", i.getQuantity());
+            System.out.printf("\nProduct Reorder Level: %d", i.getReorderLevel());
+            System.out.printf("\nReorder Needed ? : %b", i.needsReorder());
+            System.out.printf("\n---------------------------");
         }
     }
 }
