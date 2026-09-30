@@ -9,7 +9,7 @@ public class PickupDelivery extends DeliveryMethod {
         // Then assign the field.
         this.location = location;
 
-        if (location == null || location == ""){
+        if (location == null || location.isBlank()){
             throw new IllegalArgumentException();
         }
     }

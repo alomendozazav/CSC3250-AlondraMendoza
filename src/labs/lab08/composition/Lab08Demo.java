@@ -22,15 +22,15 @@ public class Lab08Demo {
         CartItem notebookItem = new CartItem(notebook, 2);
         CartItem guideItem = new CartItem(guide, 3);
 
-        System.out.println("Notebook line total: $" + notebookItem.getLineTotal());
-        System.out.println("Guide line total: $" + guideItem.getLineTotal());
+        System.out.println("\nNotebook line total: $" + notebookItem.getLineTotal());
+        System.out.println("\nGuide line total: $" + guideItem.getLineTotal());
 
         // TODO 5:
         // After PickupDelivery is implemented, create another Product named
         // "Pickup Notebook" with price 20.0 and PickupDelivery("Student Center").
         // Print its deliveryInstructions().
         Product pickupNotebook = new Product("P300", "Pickup Notebook", 20.0, new PickupDelivery("Student Center"));
-        System.out.printf("Delivery instructions --> " + pickupNotebook.deliveryInstructions());
+        System.out.printf("\nDelivery instructions --> " + pickupNotebook.deliveryInstructions());
 
     }
 }

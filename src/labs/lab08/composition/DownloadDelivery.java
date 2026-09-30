@@ -9,7 +9,7 @@ public class DownloadDelivery extends DeliveryMethod {
         // Then assign the field.
         this.downloadFile = downloadFile;
 
-        if (downloadFile == null || downloadFile == ""){
+        if (downloadFile == null || downloadFile.isBlank()){
             throw new IllegalArgumentException();
         }
 

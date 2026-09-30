@@ -42,6 +42,6 @@ public class Product {
         // Do NOT use instanceof or a switch on delivery type.
         // Delegate this request to deliveryMethod.
 
-        return "";
+        return deliveryMethod.instructions();
     }
 }
