@@ -1,4 +1,4 @@
-package labs.lab10;
+package labs.lab09;
 /** Week 4 abstract baseline, with the Week 5 behavioral contract made explicit.
  * A valid Product has nonblank identity/name and a finite nonnegative price.
  * deliveryInstructions() must normally return useful, non-null, nonblank text

@@ -1,4 +1,4 @@
-package labs.lab10;
+package labs.lab09;
 
 import labs.lab09.CompositionDemo.DeliveryMethod;
 

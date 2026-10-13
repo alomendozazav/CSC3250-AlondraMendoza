@@ -1,4 +1,4 @@
-package labs.lab10;
+package labs.lab09;
 
 public class DigitalProduct extends Product {
     private final String downloadFile;

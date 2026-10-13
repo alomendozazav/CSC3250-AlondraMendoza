@@ -1,5 +1,7 @@
 package labs.lab09;
 
+import labs.lab10.*;
+
 import java.util.Locale;
 public class Lab09Demo {
     public static void main(String[] args) {

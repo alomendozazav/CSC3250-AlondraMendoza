@@ -1,4 +1,4 @@
-package labs.lab10;
+package labs.lab09;
 
 /** Complete only the TODOs. Product already owns common state and validation. */
 public class WorkshopProduct extends Product {
