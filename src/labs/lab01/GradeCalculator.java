@@ -29,7 +29,7 @@ public class GradeCalculator {
         // TODO
         int lowestScore = scores[0];
         for(int score : scores) {
-            if (score <= lowestScore){
+            if (score <= lowestScore){ 
                 lowestScore = score;
             }
         }

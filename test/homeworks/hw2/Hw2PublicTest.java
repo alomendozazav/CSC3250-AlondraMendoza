@@ -1,4 +1,4 @@
-package homework.hw02;
+package homeworks.hw2;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
