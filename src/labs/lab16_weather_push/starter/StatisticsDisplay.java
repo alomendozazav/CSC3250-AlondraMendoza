@@ -1,3 +1,5 @@
+package labs.lab16_weather_push.starter;
+
 // CSC-3250 classroom adaptation of the SimUDuck / Weather-O-Rama examples.
 // Conceptual source: Freeman & Robson, Head First Design Patterns, 2nd ed.
 // Original classroom scaffolding and visible checks; no external libraries required.
@@ -11,7 +13,20 @@ public class StatisticsDisplay implements Observer, DisplayElement {
     }
     @Override public void update(float t, float h, float p) {
         // TODO: complete this observer update
-        throw new UnsupportedOperationException("TODO: complete this observer update");
+        sum += t;
+        count++;
+        if (count == 1) {
+            minimum = t;
+            maximum = t;
+        } else {
+            if (t > maximum) {
+                maximum = t;
+            }
+
+            if (t < minimum) {
+                minimum = t;
+            }
+        }
     }
     @Override public void display() {
         if (count == 0) {
