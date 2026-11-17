@@ -1,4 +1,4 @@
-package labs.lab17_18_Decorator.support;
+package labs.lab17_18_Decorator.weapons.support;
 
 /** Small visible checking utility. No JUnit setup or test-writing is required. */
 public class VisibleChecks {

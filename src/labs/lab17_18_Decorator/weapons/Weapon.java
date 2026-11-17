@@ -1,4 +1,4 @@
-package weapons;
+package labs.lab17_18_Decorator.weapons;
 
 /** Common contract for a base weapon and every weapon enhancement. */
 public interface Weapon {

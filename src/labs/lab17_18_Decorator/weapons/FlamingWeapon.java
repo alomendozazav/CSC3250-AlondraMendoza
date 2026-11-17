@@ -1,4 +1,4 @@
-package weapons;
+package labs.lab17_18_Decorator.weapons;
 
 public class FlamingWeapon extends WeaponDecorator {
     public FlamingWeapon(Weapon weapon) {
@@ -8,12 +8,12 @@ public class FlamingWeapon extends WeaponDecorator {
     @Override
     public int damage() {
         // TODO: Delegate to weapon.damage(), then add 5.
-        return 0;
+        return weapon.damage() + 5;
     }
 
     @Override
     public String description() {
         // TODO: Delegate to weapon.description(), then append ", Flaming".
-        return "TODO Flaming";
+        return weapon.description() + ", Flaming";
     }
 }

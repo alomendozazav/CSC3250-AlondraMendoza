@@ -1,4 +1,4 @@
-package weapons;
+package labs.lab17_18_Decorator.weapons;
 
 public class Sword implements Weapon {
     @Override

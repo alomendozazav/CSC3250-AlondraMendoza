@@ -1,6 +1,7 @@
-package weapons;
+package labs.lab17_18_Decorator.weapons;
 
-import support.VisibleChecks;
+import labs.lab17_18_Decorator.weapons.support.VisibleChecks;
+;
 
 /** Optional extension. Complete the core lab before running this suite. */
 public class ExtensionChecks {
